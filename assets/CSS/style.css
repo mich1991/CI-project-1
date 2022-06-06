@@ -1,9 +1,9 @@
 /* Variables */
 :root {
-    --primary-color: A760FF;
-    --secondary-color: FFCC8F;
-    --primary-accent-color: CA82FF;
-    --secondary-accent-color: FFDAAF;
+    --primary-color: #A760FF;
+    --secondary-color: #FFCC8F;
+    --primary-accent-color: #CA82FF;
+    --secondary-accent-color: #FFDAAF;
 }
 
 /* Style reset */
@@ -11,26 +11,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6, a{
+    color: var(--primary-color);
 }
 
 /* Nav */
 .navbar{
     display: flex;
-    height: 100px;
+    height: 80px;
     align-items: center;
     justify-content: space-between;
 }
 .navbar__logo{
-    height: 100px;
     width: auto;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar__logo img{
+    height: 100%;
 }
 .navbar__list{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
     margin-right: 40px;
 }
-.navbar__list a {
-    text-decoration: none;
-    color: black;
+.navbar__list__item {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.navbar__list__item i {
+    margin-left: 5px;
 }

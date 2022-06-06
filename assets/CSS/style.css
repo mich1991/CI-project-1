@@ -1,4 +1,12 @@
-/*Style reset */
+/* Variables */
+:root {
+    --primary-color: A760FF;
+    --secondary-color: FFCC8F;
+    --primary-accent-color: CA82FF;
+    --secondary-accent-color: FFDAAF;
+}
+
+/* Style reset */
 *{
     margin: 0;
     padding: 0;

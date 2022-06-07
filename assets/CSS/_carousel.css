@@ -10,7 +10,7 @@ Small changes needed to make it usefull for my project
 ul.slides {
     display: block;
     position: relative;
-    aspect-ratio: 3/1;
+    aspect-ratio: 4/1;
     /*height: 500px;*/
     margin: 0;
     padding: 0;

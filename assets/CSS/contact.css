@@ -1,5 +1,10 @@
 @import "_layout.css";
 
+.hero img{
+    margin-top: 80px;
+    width: 100%;
+    aspect-ratio: 4/1;
+}
 .container{
     width: 90%;
     margin: 80px auto 0 auto;

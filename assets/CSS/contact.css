@@ -1,0 +1,6 @@
+@import "_layout.css";
+
+.container{
+    width: 90%;
+    margin: 80px auto 0 auto;
+}

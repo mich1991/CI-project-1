@@ -14,5 +14,9 @@ images used : [
     {
     author: Jessica Lewis,
     URL: https://unsplash.com/photos/ftA71vetxuo
-    }
+    },
+    {
+    author: Math,
+    URL: https://unsplash.com/photos/6GDW9BVdmkw
+    },
 ]

@@ -124,13 +124,7 @@ footer{
     gap: 10px;
     margin-top: 8px;
 }
-.footer__box--social li {
 
-}
-.social-icon:hover{
-    box-shadow: 0 6px 2px 0 var(--dark-color);
-    transform: translateY(-4px);
-}
 .social-icon {
     display: flex;
     justify-content: center;
@@ -142,6 +136,10 @@ footer{
     background-color: var(--light-color);
     box-shadow: 0 2px 2px 0 var(--dark-color);
     transition: 0.2s;
+}
+.social-icon:hover{
+    box-shadow: 0 6px 2px 0 #555;
+    transform: translateY(-4px);
 }
 .social-icon a{
     width: 30px;

@@ -5,7 +5,22 @@
 
 /*Products section*/
 .products-container{
+text-align: center;
+    margin: 20px;
+}
+.cards{
+    width: 80%;
+    margin: 20px auto 0 auto;
     display: flex;
-    margin-top: 10px;
     justify-content: space-evenly;
+    gap: 50px;
+}
+.card{
+
+}
+.card__header img{
+    max-width: 300px;
+}
+.card__body{
+
 }

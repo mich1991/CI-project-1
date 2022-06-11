@@ -145,3 +145,36 @@ footer{
     width: 30px;
     height: 30px;
 }
+
+/*Buttons */
+
+.general-button {
+    background: linear-gradient(var(--gradientStart), var(--gradientEnd));
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 50px;
+    justify-content: center;
+    padding: 0 32px;
+    transition: all 150ms;
+}
+.general-button[disabled]{
+    --gradientStart: #eee;
+    --gradientEnd: #ddd;
+    color: #222222;
+}
+.general-button[data-pre="yes"]{
+    --gradientStart: #783c5f;
+    --gradientEnd: #4d263d;
+}
+
+.general-button:hover {
+    box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+    opacity: .85;
+}

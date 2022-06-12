@@ -69,10 +69,18 @@
 .hidden{
     opacity: 0;
     transition: 0.4s;
-
 }
+.lock i{
+    opacity: 1;
+    transition: 0.2s;
+}
+
 .key:hover .hidden{
     opacity: 1;
+}
+.key:hover .lock i{
+    opacity: 0;
+    display: none;
 }
 
 .key__img img{
@@ -137,7 +145,6 @@
     border-radius: 5px;
     padding: 0 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
-
 }
 
 /*Media queries*/
@@ -148,6 +155,9 @@
     }
     .hidden{
         opacity: 1;
+    }
+    .lock i{
+        opacity: 0;
     }
 }
 

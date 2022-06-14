@@ -1,6 +1,48 @@
 @import "_layout.css";
+/*hero*/
 
+.hero{
+    position: relative;
+    min-height: 600px;
+    background-image: url("/assets/images/about/joel-filipe-VuwAfoHpxgs-unsplash.webp");
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+.hero__box{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
 .container{
     width: 90%;
     margin: 80px auto 0 auto;
+}
+
+.about__founding p{
+    margin-bottom: 25px;
+}
+.about__founding p:last-of-type{
+    margin-top: 40px;
+    text-align: right;
+}
+.about__founders{
+    margin-top: 50px;
+}
+.founder{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.founder:nth-of-type(odd) .founder--photo {
+    order: 2;
+}
+.founder--photo img{
+    max-width: 400px;
+    max-height: 400px;
+}
+.founder--description{
+    padding-top: 20px;
+    width: 40ch;
 }

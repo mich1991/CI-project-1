@@ -2,11 +2,6 @@
 @import "_layout.css";
 @import "_carousel.css";
 
-/*Variables for button gradient*/
-:root {
-    --gradientStart: #4d263d;
-    --gradientEnd: #783c5f;
-}
 
 /*Products section*/
 .container{
@@ -136,15 +131,6 @@
 /*News letter form*/
 .news-letter__form{
     margin: 10px;
-}
-.news-letter__form input{
-    all: unset;
-    height: 50px;
-    min-width: 200px;
-    background: linear-gradient(#fff, #eee);
-    border-radius: 5px;
-    padding: 0 5px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
 }
 
 /*Media queries*/

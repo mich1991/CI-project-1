@@ -23,18 +23,35 @@
         <li class="navbar__list__item"><a href="contact.html">Contact<i class="fa-solid fa-file-signature"></i></a></li>
     </ul>
 </nav>
-<div class="hero">
-    <img src="./assets/images/contact/math-6GDW9BVdmkw-unsplash.jpg" alt="">
-</div>
-<div class="container">
-    <div>
-        Contact form
-    </div>
-    <br>
-    <div>google maps screenshot</div>
-</div>
 
-<!--Content-->
+<section class="contact">
+    <div class="container flex center">
+        <div class="contact__description flex center col">
+            <h1>Contact Us</h1>
+            <p><strong>Need any expert advise?</strong>You are more than welcome to leave your contact info and we will be in touch shortly </p>
+        </div>
+
+        <form class="contact__form flex col center">
+            <div class="flex col">
+                <label for="firstName">Name</label>
+                <input type="text" name="firstName" id="firstName" class="general-input" required>
+            </div>
+            <div class="flex col">
+                <label for="email">Email</label>
+                <input type="email" class="general-input" id="email" required>
+            </div>
+            <div class="flex col">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" class="general-input general-input--textarea" required></textarea>
+            </div>
+            <button class="general-button" type="submit">Submit</button>
+        </form>
+    </div>
+
+</section>
+<section>
+<!--    google maps-->
+</section>
 <footer>
     <div class="footer">
         <div class="footer__box--logo">

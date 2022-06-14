@@ -1,11 +1,47 @@
 @import "_layout.css";
 
-.hero img{
+.contact{
     margin-top: 80px;
-    width: 100%;
-    aspect-ratio: 4/1;
+    background-image: url("/assets/images/contact/contact-us-coffee.webp");
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
 }
+
 .container{
     width: 90%;
     margin: 80px auto 0 auto;
+    justify-content: space-evenly;
+}
+
+/*contact description*/
+
+.contact__description{
+    margin-top: 20px;
+    max-width: 35ch;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+/*contact form*/
+.contact__form{
+    gap: 15px;
+    margin: 20px;
+    padding: 15px;
+    background: rgba(101, 101, 101, 0.7);
+    border-radius: 10px;
+}
+.contact__form div label{
+    color: #eeeeee;
+}
+
+.contact__form .general-button,
+.contact__form div{
+    width: 350px;
+}
+
+@media (max-width: 900px) {
+    .container{
+        flex-wrap: wrap;
+    }
 }

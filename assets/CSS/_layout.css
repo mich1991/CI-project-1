@@ -5,6 +5,10 @@
     --primary-color: #4D263D;
     --dark-color: #222;
     --light-color: #eee;
+/*Variables for button gradient*/
+    --gradientStart: #4d263d;
+    --gradientEnd: #783c5f;
+
 }
 
 /* Style reset */
@@ -31,6 +35,9 @@ h1,h2,h3,h4,h5,h6, a{
 }
 .flex{
     display: flex;
+}
+.col{
+    flex-direction: column;
 }
 .center{
     justify-content: center;
@@ -161,6 +168,7 @@ footer{
     font-size: 18px;
     height: 50px;
     justify-content: center;
+    align-items: center;
     padding: 0 32px;
     transition: all 150ms;
 }
@@ -177,4 +185,19 @@ footer{
 .general-button:hover {
     box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
     opacity: .85;
+}
+
+.general-input{
+    all: unset;
+    height: 50px;
+    min-width: 200px;
+    background: linear-gradient(#fff, #eee);
+    border-radius: 5px;
+    padding: 0 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+}
+.general-input--textarea{
+    height: auto;
+    min-height: 200px;
+    padding: 10px 5px;
 }

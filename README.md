@@ -27,5 +27,20 @@ images used : [
     author: Kaleb Tapp,
     URL: https://unsplash.com/photos/J59wWPn09BE
     },
-
+    {
+    author: Joel Filipe,
+    URL: https://unsplash.com/photos/VuwAfoHpxgs
+    },
+    {
+    author: Foto Sushi,
+    URL: https://unsplash.com/photos/6anudmpILw4
+    },
+    {
+    author: Yogendra Singh
+    URL: https://unsplash.com/photos/HrpYHchKb5Y
+    },
+    {
+    author: Jonas Kakaroto,
+    URL: https://unsplash.com/photos/Fs8ZFfVh-cg
+    }
 ]

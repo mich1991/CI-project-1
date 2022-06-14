@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6, a{
     justify-content: center;
     align-items: center;
 }
+.space-evenly{
+    justify-content: space-evenly;
+}
 
 /* Navigation */
 .navbar{
@@ -200,4 +203,19 @@ footer{
     height: auto;
     min-height: 200px;
     padding: 10px 5px;
+}
+
+.highlight{
+    color: var(--primary-color);
+    font-weight: 500;
+    line-height: 3;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
 }

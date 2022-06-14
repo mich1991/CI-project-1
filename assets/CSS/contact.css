@@ -1,4 +1,7 @@
 @import "_layout.css";
+body{
+    overflow-x: hidden;
+}
 
 .contact{
     margin-top: 80px;
@@ -40,8 +43,42 @@
     width: 350px;
 }
 
+.info{
+    background-color: var(--light-color);
+}
+
+/*maps*/
+
+.maps iframe{
+    width: 100vw !important;
+}
+
 @media (max-width: 900px) {
     .container{
         flex-wrap: wrap;
+    }
+    .info {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .info__box:nth-of-type(2)::after,
+    .info__box:nth-of-type(2)::before
+    {
+        content: '';
+        height: 1px;
+        width: 100vw;
+        background-color: var(--dark-color);
+    }
+    .info__box:nth-of-type(2)::before{
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 420px){
+    .contact__form{
+        width: 90%;
+    }
+    .contact__form .general-button,
+    .contact__form div{
+        width: 100%;
     }
 }

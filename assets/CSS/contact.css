@@ -5,7 +5,7 @@ body{
 
 .contact{
     margin-top: 80px;
-    background-image: url("assets/images/contact/contact-us-coffee.webp");
+    background-image: url("../images/contact/contact-us-coffee.webp");
     background-repeat: no-repeat;
     background-position: 25% 50%;
 }

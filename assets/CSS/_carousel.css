@@ -10,8 +10,9 @@ Small changes needed to make it usefull for my project
 ul.slides {
     display: block;
     position: relative;
-    aspect-ratio: 4/1;
-    /*height: 500px;*/
+    /*aspect-ratio: 4/1;*/
+    width: 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -37,6 +38,7 @@ ul.slides input {
 }
 
 .slide-image {
+    text-align: center;
     display: block;
     position: absolute;
     width: 100%;

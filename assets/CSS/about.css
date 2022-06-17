@@ -2,6 +2,7 @@
 /*hero*/
 
 .hero{
+    margin-top: var(--navbar-height);
     position: relative;
     min-height: 600px;
     background-image: url("/assets/images/about/joel-filipe-VuwAfoHpxgs-unsplash.webp");

@@ -9,7 +9,8 @@
 /*Variables for button gradient*/
     --gradientStart: #4d263d;
     --gradientEnd: #783c5f;
-
+/*Navbar height responsive*/
+    --navbar-height: 80px;
 }
 
 /* Style reset */
@@ -56,7 +57,7 @@ h1,h2,h3,h4,h5,h6, a{
     right: 0;
     padding: 0 10%;
     display: flex;
-    height: 80px;
+    height: var(--navbar-height);
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ddd;
@@ -226,6 +227,34 @@ footer{
 
 @media (max-width: 700px){
     .navbar{
+        font-size: 0.7rem;
+    }
+    .navbar__list__item{
+        font-size: 1.2rem;
+
+    }
+    .footer{
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
+    .footer__box--social ol{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+    :root{
+        --navbar-height: 90px;
+    }
+    .navbar {
         flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .navbar__list{
+        margin: 10px 0;
+        width: 100%;
+        justify-content: space-between;
     }
 }

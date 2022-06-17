@@ -4,7 +4,7 @@ Small changes needed to make it usefull for my project
 */
 
 .carousel {
-    margin-top: 80px;
+    margin-top: var(--navbar-height);
 }
 
 ul.slides {

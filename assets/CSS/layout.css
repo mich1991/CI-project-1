@@ -25,6 +25,12 @@
 h1,h2,h3,h4,h5,h6, a{
     color: var(--primary-color);
 }
+.active{
+    padding-bottom: 1px;
+    border-bottom: 3px solid var(--primary-color);
+    border-radius: 25%;
+    box-shadow: 0 6px 4px -4px var(--dark-color);
+}
 
 .circle{
     display: inline-block;

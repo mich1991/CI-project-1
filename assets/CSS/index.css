@@ -143,6 +143,7 @@
         opacity: 1;
     }
     .lock i{
+        display: none;
         opacity: 0;
     }
 }
@@ -150,5 +151,10 @@
 @media(max-width: 1090px){
     .cards{
         flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px){
+    .grid{
+        grid-template-columns: 1fr;
     }
 }

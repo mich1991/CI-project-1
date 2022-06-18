@@ -2,7 +2,7 @@
 @import "carousel.css";
 
 :root {
-    --primary-color: #4D263D;
+    --primary-color: rgba(77, 38, 61, 0.76);
     --dark-color: #222;
     --light-color: #eee;
 

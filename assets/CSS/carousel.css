@@ -2,7 +2,9 @@
 https://codepen.io/ancaspatariu/pen/WpQYOP
 Small changes needed to make it usefull for my project
 */
-
+:root{
+    --carousel-height: 400px;
+}
 .carousel {
     margin-top: var(--navbar-height);
 }
@@ -10,9 +12,8 @@ Small changes needed to make it usefull for my project
 ul.slides {
     display: block;
     position: relative;
-    /*aspect-ratio: 4/1;*/
     width: 100%;
-    height: 500px;
+    height: var(--carousel-height);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -42,16 +43,24 @@ ul.slides input {
     display: block;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 0;
     opacity: 0;
     transition: all .7s ease-in-out;
 }
 
 .slide-image img {
-    width: auto;
-    min-width: 100%;
-    height: 100%;
+    width: 100%;
+    aspect-ratio: 4/1;
+}
+.slide-image__title{
+    position: absolute;
+    padding: 10px;
+    color: #eeeeee;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -25%);
+    background-color: var(--primary-color);
 }
 
 .carousel-controls {
@@ -134,3 +143,45 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
+
+/*responsivness */
+
+@media (max-width: 1700px) {
+    :root{
+        --carousel-height: 350px;
+    }
+}
+@media(max-width: 1380px){
+    :root{
+        --carousel-height: 450px;
+    }
+    .slide-image img{
+        height: var(--carousel-height);
+        object-fit: cover;
+    }
+    .slide-image__title{
+        position: absolute;
+        padding: 10px;
+        color: var(--light-color);
+        top: calc(100% - 50px);
+        left: 50%;
+        transform: translate(-50%, -100%);
+        background-color: var(--primary-color);
+    }
+}
+@media(max-width: 900px){
+    :root{
+        --carousel-height: 400px;
+    }
+}
+@media (max-width: 600px) {
+    .slide-image img {
+        aspect-ratio: 4/3;
+    }
+    .slide-image__title{
+        font-size: 1.4rem;
+    }
+    :root{
+        --carousel-height: 400px;
+    }
+}

@@ -184,4 +184,7 @@ input:checked + .slide-container .nav label { display: block; }
     :root{
         --carousel-height: 400px;
     }
+    .slide-image__title--center{
+        object-position: 0 -10px;
+    }
 }

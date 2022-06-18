@@ -80,11 +80,14 @@ https://www.maps.ie/create-google-map/
 Thanks to whom I didn't have to provide my API key.
 ![](docs/contact/google-maps.png)
 
-###Features - To be implemented
+##Features - To be implemented
 
 Implement buttons action on product cards by redirecting to new pages with products details or to modal box with details and purchase mechanism.
 
 Rebuild carousel based on JavaScript and autoplay functionality instead of plain HTML and CSS.
+
+##Testing
+
 
 
 Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)

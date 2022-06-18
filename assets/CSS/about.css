@@ -5,7 +5,7 @@
     margin-top: var(--navbar-height);
     position: relative;
     min-height: 600px;
-    background-image: url("/assets/images/about/joel-filipe-VuwAfoHpxgs-unsplash.webp");
+    background-image: url("../images/about/joel-filipe-VuwAfoHpxgs-unsplash.webp");
     background-repeat: no-repeat;
     background-position: 0 35%;
     background-size: cover;

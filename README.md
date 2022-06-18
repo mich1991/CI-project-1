@@ -2,6 +2,7 @@ CI-project-1
 HTML & CSS project for Code Institute
 
 
+Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
 images used : [
     {
     author: Calugar Ana Maria,

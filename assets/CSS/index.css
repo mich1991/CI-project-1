@@ -131,6 +131,10 @@
 /*News letter form*/
 .news-letter__form{
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 /*Media queries*/

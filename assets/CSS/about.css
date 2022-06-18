@@ -122,11 +122,7 @@
     .founder--photo img{
         width: 250px;
         height: 250px;
-    }{
-        width: 250px;
-        height: 250px;
     }
-
     .founder--photo::after{
         position: absolute;
         content: '';

@@ -26,6 +26,16 @@ Footer that we can split into 3 parts.
 ![](docs/index/footer.png)
 
 ### Home/Index page
+#### Carousel
+Plain HTML & CSS carousel without autoplay functionality. I tried to keep project Javascript free and that the best I could do.
+HTML & CSS part is based on:
+
+Carousel created by Anca Spatariu
+https://codepen.io/ancaspatariu/pen/WpQYOP
+
+Plenty changes were done to make the carousel useful for my project.
+
+![](docs/index/carousel.png)
 #### Product cards
 
 Currently there are only 3 products. To entertain customer who is browsing a website I added

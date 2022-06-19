@@ -95,7 +95,12 @@ Rebuild carousel based on JavaScript and autoplay functionality instead of plain
 ![](docs/tests/lighthouse/aboutDesktopLighthouse.png)
 ### About mobile
 ![](docs/tests/lighthouse/aboutMobileLighthouse.png)
-
+### Contact desktop
+Performance loses due embedding Google Maps from third party source. Can't fix that at this moment.
+![](docs/tests/lighthouse/contactDesktopLighthouse.png)
+### Contact mobile
+Same story. Performance loses due embedding
+![](docs/tests/lighthouse/contactMobileLighthouse.png)
 
 Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
 images used : [

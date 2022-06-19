@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6, a{
 
 /*Footer*/
 footer{
-    background-color: #999;
+    background-color: #ccc;
     box-shadow: inset 0 10px 6px -6px var(--dark-color);
 }
 .footer{

@@ -47,6 +47,11 @@ body{
     background-color: var(--light-color);
 }
 
+.info__box__icon{
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
 /*maps*/
 
 .maps iframe{

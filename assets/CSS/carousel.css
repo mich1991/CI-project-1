@@ -3,7 +3,7 @@ https://codepen.io/ancaspatariu/pen/WpQYOP
 Small changes needed to make it usefull for my project
 */
 :root{
-    --carousel-height: 400px;
+    --carousel-height: 600px;
 }
 .carousel {
     margin-top: var(--navbar-height);
@@ -51,7 +51,7 @@ ul.slides input {
 
 .slide-image img {
     width: 100%;
-    aspect-ratio: 4/1;
+    aspect-ratio: 8/3;
 }
 .slide-image__title{
     position: absolute;
@@ -148,7 +148,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 @media (max-width: 1700px) {
     :root{
-        --carousel-height: 350px;
+        --carousel-height: 500px;
     }
 }
 @media(max-width: 1380px){
@@ -184,7 +184,5 @@ input:checked + .slide-container .nav label { display: block; }
     :root{
         --carousel-height: 400px;
     }
-    .slide-image__title--center{
-        object-position: 0 -10px;
-    }
 }
+/*@media (max-width: )*/

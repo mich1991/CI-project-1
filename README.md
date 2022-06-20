@@ -89,6 +89,7 @@ Rebuild carousel based on JavaScript and autoplay functionality instead of plain
 # Testing
 ## Lighthouse results
 ### Index/Home desktop
+
 ### Index/Home mobile
 
 ### About desktop

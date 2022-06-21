@@ -106,7 +106,13 @@ Same story. Performance loses due embedding
 ![](docs/tests/lighthouse/contactMobileLighthouse.png)
 
 ## HTML validator
-
+### Index
+4 errors occur all of them appeared in carousel. Since I am not author of carousel and I want to keep project "pure" (avoid bootstrap, JS, jquery and etc) I have to leave it like that.
+![](docs/tests/html-validator/indexHtmlValidator.png)
+### About
+![](docs/tests/html-validator/aboutHtmlValidator.png)
+### Contact
+![](docs/tests/html-validator/aboutHtmlValidator.png)
 Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
 images used : [
 

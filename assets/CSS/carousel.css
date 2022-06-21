@@ -9,7 +9,7 @@ Small changes needed to make it usefull for my project
     margin-top: var(--navbar-height);
 }
 
-ul.slides {
+div.slides {
     display: block;
     position: relative;
     width: 100%;
@@ -29,7 +29,7 @@ ul.slides {
     -webkit-touch-callout: none;
 }
 
-ul.slides input {
+div.slides input {
     display: none;
 }
 

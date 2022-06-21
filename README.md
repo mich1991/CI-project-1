@@ -38,8 +38,8 @@ Plenty changes were done to make the carousel useful for my project.
 ![](docs/index/carousel.png)
 #### Product cards
 
-Currently there are only 3 products. To entertain customer who is browsing a website I added
-hover effect which increases products img size, lifts it a little bit and leaves a box shadow underneath.
+Currently, there are only 3 products. To entertain customer who is browsing a website I added
+hover effect which increases products img size, lifts it a little and leaves a box shadow underneath.
 Buttons are NOT working currently.
 
 ![](docs/index/products.png)
@@ -70,7 +70,7 @@ frame location is changing according to the screen width.
 ### Contact Page
 #### Contact Form
 Contact form implemented in header part. Form on submission is opening new window and form is submitted into Code Institute form dumper.
-Form validation is covered by HTML. Below Header/Contact form are other contact details provided that may help reaching out to company.
+Form validation is covered by HTML. Below Header/Contact form are other contact details provided that may help reach out to company.
 ![](docs/contact/contact-form.png)
 
 #### Google Maps
@@ -108,7 +108,7 @@ Same story. Performance loses due embedding
 ## HTML validator
 I used https://validator.w3.org/ for html validation purpose
 ### Index
-4 errors occur all of them appeared in carousel. Since I am not author of carousel and I want to keep project "pure" (avoid bootstrap, JS, jquery and etc) I have to leave it like that.
+4 errors occur all of them appeared in carousel. Since I am not author of carousel and I want to keep project "pure" (avoid bootstrap, JS, jquery etc.) I have to leave it like that.
 ![](docs/tests/html-validator/indexHtmlValidator.png)
 ### About
 ![](docs/tests/html-validator/aboutHtmlValidator.png)
@@ -128,12 +128,21 @@ That's why I will only test part of CSS written by me.
 ### layout.css
 ![](docs/tests/css-validator/layoutCssValidator.png)
 ### carousel.css
-I am not author of this part but I have made some changes in the file so to fit my project.
+I am not author of this part, but I have made some changes in the file so to fit my project.
 ![](docs/tests/css-validator/carouselCssValidator.png)
 
+## Technologies used
+* HTML
+* CSS
+* PHPStorm IDE
+* Google Chrome Developer Tools
+* Mozilla Firefox Developer Tools
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Unsplash](https://unsplash.com/)
 
-Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
-images used : [
+###images used from Unsplash : 
+[
 
     {
     author: Calugar Ana Maria,
@@ -176,3 +185,10 @@ images used : [
     URL: https://unsplash.com/photos/Fs8ZFfVh-cg
     }
 ]
+
+### images of products and description used from :
+* [Sage Appliances](https://www.sageappliances.com/uk/en/products/espresso.html)
+* [O'Learys Expert](https://expertkerry.ie/)
+
+## Credits
+* Huge thanks to my mentor [Guido Cecilio Garcia Bernal](https://github.com/guidocecilio) guided me throughout this project.

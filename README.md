@@ -1,7 +1,7 @@
 # Sege - Coffee machine family business
 ## CI-project-1
 ### HTML & CSS project for Code Institute
-Landing page for the fictional family company in a fictional town. The business is owned by a father and 2 sons.
+Landing page for the fictional family company in a fictional town based on true brand named "Sage". The business is owned by a father and 2 sons.
 Their target customers are individuals and businesses. Currently have 2 products on market and 1 coming soon available for preorder.
 The website has 3 pages /HOME/ABOUT/CONTACT.
 
@@ -89,9 +89,11 @@ Rebuild carousel based on JavaScript and autoplay functionality instead of plain
 # Testing
 ## Lighthouse results
 ### Index/Home desktop
-
+Performance loses due using carousel made only with HTML & CSS
+![](docs/tests/lighthouse/indexDesktopLighthouse.png)
 ### Index/Home mobile
-
+Performance loses due using carousel made only with HTML & CSS
+![](docs/tests/lighthouse/indexMobileLighthouse.png)
 ### About desktop
 ![](docs/tests/lighthouse/aboutDesktopLighthouse.png)
 ### About mobile
@@ -102,6 +104,8 @@ Performance loses due embedding Google Maps from third party source. Can't fix t
 ### Contact mobile
 Same story. Performance loses due embedding
 ![](docs/tests/lighthouse/contactMobileLighthouse.png)
+
+## HTML validator
 
 Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
 images used : [

@@ -5,6 +5,9 @@ Landing page for the fictional family company in a fictional town based on true 
 Their target customers are individuals and businesses. Currently have 2 products on market and 1 coming soon available for preorder.
 The website has 3 pages /HOME/ABOUT/CONTACT.
 
+[View website in GitHub Pages](https://mich1991.github.io/CI-project-1/index.html)
+
+[View website in Netlify](https://mellifluous-frangollo-e80838.netlify.app/)
 
 ![](docs/index/projectScreenshot.png)
 

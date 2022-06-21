@@ -106,6 +106,7 @@ Same story. Performance loses due embedding
 ![](docs/tests/lighthouse/contactMobileLighthouse.png)
 
 ## HTML validator
+I used https://validator.w3.org/ for html validation purpose
 ### Index
 4 errors occur all of them appeared in carousel. Since I am not author of carousel and I want to keep project "pure" (avoid bootstrap, JS, jquery and etc) I have to leave it like that.
 ![](docs/tests/html-validator/indexHtmlValidator.png)
@@ -113,6 +114,24 @@ Same story. Performance loses due embedding
 ![](docs/tests/html-validator/aboutHtmlValidator.png)
 ### Contact
 ![](docs/tests/html-validator/aboutHtmlValidator.png)
+
+## CSS validator
+I used https://jigsaw.w3.org/css-validator/ for CSS validation purpose.
+Some errors occur during tests. Source of error is font awesome icons that I am using from cdn.
+That's why I will only test part of CSS written by me.
+### index.css
+![](docs/tests/css-validator/indexCssValidator.png)
+### about.css
+![](docs/tests/css-validator/aboutCssValidator.png)
+### contact.css
+![](docs/tests/css-validator/contactCssValidator.png)
+### layout.css
+![](docs/tests/css-validator/layoutCssValidator.png)
+### carousel.css
+I am not author of this part but I have made some changes in the file so to fit my project.
+![](docs/tests/css-validator/carouselCssValidator.png)
+
+
 Technologies used: ['HTML', 'CSS'] (a lot could have been improved by using JS)
 images used : [
 

@@ -54,8 +54,10 @@ body{
 
 /*maps*/
 
-.maps iframe{
+#google-maps{
     width: 100vw !important;
+    border: none;
+    margin: 0;
 }
 
 @media (max-width: 900px) {

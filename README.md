@@ -111,6 +111,28 @@ Implement buttons action on product cards to redirect to new pages with products
 
 Rebuild carousel based on JavaScript and autoplay functionality instead of plain HTML and CSS.
 
+# Mockup
+## Index/Home page
+### Desktop
+![](docs/Mockup/indexMockupDesktop.html.png)
+### Tablet
+![](docs/Mockup/indexMockupTablet.png)
+### Mobile
+![](docs/Mockup/indexMockupMobile.png)
+## About
+### Desktop
+![](docs/Mockup/aboutMockupDesktop.html.png)
+### Tablet
+![](docs/Mockup/aboutMockupTablet.png)
+### Mobile
+![](docs/Mockup/aboutMockupMobile.png)
+## Contact
+### Desktop
+![](docs/Mockup/contactMockupDesktop.html.png)
+### Tablet
+![](docs/Mockup/contactMockupTablet.png)
+### Mobile
+![](docs/Mockup/contactMockupMobile.png)
 # Testing
 ## User Stories
 1. As a first-time visitor I know straight away that the website is about coffee machines for personal use or for business thanks to the carousel.
@@ -177,6 +199,7 @@ I am not author of this part, but I have made some changes in the file so to fit
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Unsplash](https://unsplash.com/)
+* [Photopea](https://www.photopea.com/)
 
 ### Images used from Unsplash : 
 [

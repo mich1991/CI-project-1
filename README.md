@@ -1,15 +1,37 @@
 # Sege - Coffee machine family business
 ## CI-project-1
 ### HTML & CSS project for Code Institute
-Landing page for the fictional family company in a fictional town based on true brand named "Sage". The business is owned by a father and 2 sons.
-Their target customers are individuals and businesses. Currently have 2 products on market and 1 coming soon available for preorder.
-The website has 3 pages /HOME/ABOUT/CONTACT.
+Landing page for the fictional family company  in a fictional town based on true brand named "Sage". The business is owned by a father and 2 sons.
+Their target customers are individuals and businesses. They are producing high quality coffee machines.
 
 [View website in GitHub Pages](https://mich1991.github.io/CI-project-1/index.html)
 
 [View website in Netlify](https://mellifluous-frangollo-e80838.netlify.app/)
 
 ![](docs/index/projectScreenshot.png)
+
+#### This website is made up of the following pages:
+
+1. Home/Index
+2. About
+3. Contact
+
+#### The business goals for this website are:
+
+1. Sell products
+2. Built up customer curiosity about products through letting them know about "4 secret, keys formula"
+3. Builds clients email database through newsletter
+4. Provide contact and all necessary details for customers to reach company.
+5. Provide support
+6. Get customer familiar with a brand, and it's story.
+
+#### The user goals of this website are:
+
+1. As recurring or first-time visitor, I want to easily find what the products look like and what are theirs prices.
+2. Secondly I am interested about what makes theirs products so unique.
+3. I would like to be updated if new products got realised.
+4. As a first-time visitor I would like to learn a little more about brand it's self.
+5. As a recurring or first-time visitor I would like to be provided with easy way to contact company. 
 
 ## Features - Existing
 
@@ -85,11 +107,21 @@ Thanks to whom I didn't have to provide my API key.
 
 ## Features - To be implemented
 
-Implement buttons action on product cards by redirecting to new pages with products details or to modal box with details and purchase mechanism.
+Implement buttons action on product cards to redirect to new pages with products details or to modal box with details and purchase mechanism.
 
 Rebuild carousel based on JavaScript and autoplay functionality instead of plain HTML and CSS.
 
 # Testing
+## User Stories
+1. As a first-time visitor I know straight away that the website is about coffee machines for personal use or for business thanks to the carousel.
+2. As a first-time or recurring visitor just below a carousel I see what products company is offering and what new is about to release.
+3. As a first-time visitor below products I can learn what makes this products special. On desktop devices I can learn that in engaging way by revealing details of each "secret key" by hovering on them.
+4. As a first-time or recurring visitor I after learning details and getting excited about products/brand I can sign up for a newsletter or check social media links in footer section.
+5. As a first-time visitor I can learn more about company and people behind it. That is a good sign that owners looks trustworthy and not boasting about them self. They are proud about products but humble about themselves. Great indicator of what kind of people they are.
+6. As a first-time or recurring visitor I can easily find all necessary details how to contact company or how to get too them. Amount of provided contact details indicates how transparent is company and how much they care for customer to be able to reach them.
+
+(6/6 tests passed :) )
+
 ## Lighthouse results
 ### Index/Home desktop
 Performance loses due using carousel made only with HTML & CSS
@@ -111,8 +143,10 @@ Same story. Performance loses due embedding
 ## HTML validator
 I used https://validator.w3.org/ for html validation purpose
 ### Index
-4 errors occur all of them appeared in carousel. Since I am not author of carousel and I want to keep project "pure" (avoid bootstrap, JS, jquery etc.) I have to leave it like that.
+4 errors occur all of them appeared in carousel. To fix that I had to change ul and li tags into divs
 ![](docs/tests/html-validator/indexHtmlValidator.png)
+After fix
+![](docs/tests/html-validator/indexHtmlValidatorFix.png)
 ### About
 ![](docs/tests/html-validator/aboutHtmlValidator.png)
 ### Contact
@@ -144,7 +178,7 @@ I am not author of this part, but I have made some changes in the file so to fit
 * [Google Fonts](https://fonts.google.com/)
 * [Unsplash](https://unsplash.com/)
 
-###images used from Unsplash : 
+### Images used from Unsplash : 
 [
 
     {

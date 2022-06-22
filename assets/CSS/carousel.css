@@ -70,7 +70,7 @@ div.slides input {
     right: 0;
     z-index: 999;
     font-size: 100px;
-    line-height: 400px;
+    line-height: var(--carousel-height);
     color: #fff;
 }
 
